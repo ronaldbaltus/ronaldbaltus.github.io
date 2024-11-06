@@ -1,0 +1,55 @@
+:root {
+    --color1: #30292F;
+    --color2: #244F26;
+    --color3: #FBFFFE;
+    --color4: #DE6449;
+    --color5: #f9de82;
+}
+
+body {
+    background-color: var(--color1);
+}
+
+.content {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+}
+
+footer {
+    align-self: flex-end;
+    color: var(--color5);
+}
+
+.logo {
+    width: 50%;
+    max-width: 738px;
+}
+
+.socials {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.socials ul {
+    background: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.socials ul li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: bottom;
+}
+
+.socials ul li img {
+    display: inline;
+    height: 64px;
+    filter: invert(100%)
+}
+
